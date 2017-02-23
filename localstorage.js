@@ -6,7 +6,7 @@
 **********************************************************************************/
 'use strict';
 
-const FileSystemAccess = require('file-system/file-system-access.js').FileSystemAccess;
+const FileSystemAccess = require('file-system/file-system-access').FileSystemAccess;
 
 if (!global.localStorage) {
     let localStorageData = {};
